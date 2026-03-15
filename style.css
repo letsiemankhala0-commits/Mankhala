@@ -1,0 +1,93 @@
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background-image: url("Mokorotlo.jpg");
+background-size: cover;
+background-position: center;
+}
+
+header{
+background:darkblue;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+nav{
+background:darkblue;
+text-align:center;
+padding:10px;
+}
+
+nav a{
+color:steelblue;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+.banner {
+  width: 100%;
+  height: 100px;
+  background-image: url("Mokorotlo.jpg"); 
+  background-size: cover;   
+  background-position: center; 
+  background-repeat: no-repeat; 
+  color: white; /
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container{
+padding:20px;
+background:beige;
+margin:20px;
+border-radius:8px;
+}
+
+.container:hover{transforms:scale(1.02);
+transformation:0.3s;}
+
+p{font-size:16px;
+line-height:1.6;}
+
+h2{color:darkblue;
+border-bottom:2px solid blue;
+padding-bottom:5px;}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:12px;
+}
+
+th{padding:10px;darkblue;
+color:white;
+padding:12px}
+
+td{padding:10px;
+border:1px solid gray;}
+
+tr :nth-child(even){
+background:steelblue;}
+
+tr:hover{background:steelblue;}
+
+table, th, td{
+border:1px solid gray;
+padding:10px;
+text-align:center;
+}
+
+footer{
+background:darkblue;
+color:white;
+text-align:center;
+padding:10px;
+}
